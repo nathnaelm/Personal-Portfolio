@@ -35,9 +35,11 @@ function App() {
       </div>
       <h1>Welcome to my Portfolio!</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <p>
+          Hi there! I'm Nathnael Mecuria, a curious and driven computer science senior at Virginia Tech with an interest in software engineering, particularly front-end as well as app development.
+          I enjoy creating intuitive, user-focused applications that balance clean design with strong technical foundations.
+          I bring a problem-solving mindset, attention to detail, and a strong desire to continuously learn and improve within collaborative team environments.
+        </p>
       </div>
     </>
   )
