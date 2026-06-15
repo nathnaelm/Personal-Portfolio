@@ -15,11 +15,11 @@ function TabBar() {
                 </button>
             </Link>
 
-            <Link to='/work'>
+            <Link to='/experience'>
                 <button
-                    onClick={() => setCurrentTab('work')} className={currentTab === 'work' ? 'active' : ''}
+                    onClick={() => setCurrentTab('experience')} className={currentTab === 'experience' ? 'active' : ''}
                 >
-                    Work
+                    Experience
                 </button>
             </Link>
 

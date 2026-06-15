@@ -6,7 +6,7 @@ import CodeKidsLogo from '../../assets/CodeKidsLogo.jpg'
 import CSVTLogo from '../../assets/CSVTLogo.png'
 
 
-function Work() {
+function Experience() {
     const [count, setCount] = useState(0)
     const [currentTab, setCurrentTab] = useState('home')
 
@@ -79,4 +79,4 @@ function Work() {
 
 }
 
-export default Work
+export default Experience

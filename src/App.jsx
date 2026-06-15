@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './tabs/Home/Home'
-import Work from './tabs/Experience/Experience'
+import Experience from './tabs/Experience/Experience'
 import Portfolio from './tabs/Portfolio/Portfolio'
 import Contact from './tabs/Contact/Contact'
 import TabBar from './components/TabBar'
