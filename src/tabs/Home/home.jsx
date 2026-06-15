@@ -1,5 +1,5 @@
-import LinkedInLogo from '../../../LinkedInLogo.png'
-import GithubLogo from '../../../GithubLogo.png'
+import LinkedInLogo from '../../assets/LinkedInLogo.png'
+import GithubLogo from '../../assets/GithubLogo.png'
 
 function Home() {
   return (

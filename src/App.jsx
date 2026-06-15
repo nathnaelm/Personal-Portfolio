@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './tabs/Home/Home'
-import Work from './tabs/Work/Work'
+import Work from './tabs/Experience/Experience'
 import Portfolio from './tabs/Portfolio/Portfolio'
 import Contact from './tabs/Contact/Contact'
 import TabBar from './components/TabBar'
@@ -13,7 +13,7 @@ function App() {
         <TabBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
