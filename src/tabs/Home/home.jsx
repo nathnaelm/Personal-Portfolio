@@ -4,16 +4,18 @@ import GithubLogo from '../../assets/GithubLogo.png'
 function Home() {
   return (
     <div>
-      <div>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2.5%' }}>
         <a href="https://www.linkedin.com/in/nathnael-mecuria/" target="_blank" rel="noreferrer">
-          <img src={LinkedInLogo} className="LinkedIn logo" alt="LinkedIn logo" />
+          <img src={LinkedInLogo} className="LinkedIn-logo" alt="LinkedIn logo" />
         </a>
         <a href="https://github.com/nathnaelm" target="_blank" rel="noreferrer">
-          <img src={GithubLogo} className="Github logo" alt="Github logo" />
+          <img src={GithubLogo} className="Github-logo" alt="Github logo" />
         </a>
       </div>
 
-      <h1>Welcome to my Portfolio!</h1>
+      <header className="home-header">
+        <h1> Welcome to my Portfolio!</h1>
+      </header>
       <div className="aboutMecard">
         <p>
           Hi there! I'm Nathnael Mecuria, a curious and driven computer science recent graduate and incoming Master's student at Virginia Tech with an interest in software engineering, particularly front-end as well as app development.
