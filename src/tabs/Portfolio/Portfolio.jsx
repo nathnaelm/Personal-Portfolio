@@ -2,9 +2,9 @@
 const projects = [
     {
         title: 'Roommate Finder',
-        description: 'Implemented preference-based roommate matching functionality, translating user inputs into match results rendered dynamically within the web application’s frontend. Collaborated on the development of a full - stack roommate - finding web application using Git, contributing well-documented commits and creating specialized features within a shared team codebase.',
+        description: 'Implemented preference-based roommate matching functionality, translating user inputs into match results rendered dynamically within the web application’s frontend. Collaborated on the development of a full - stack roommate - finding web application using Gitlab, contributing well-documented commits and creating specialized features within a shared team codebase.',
         period: 'Aug 2025 - Dec 2025',
-        link: '#',
+        link: 'https://docs.google.com/presentation/d/1X4HmukwmkWeLsssUiMl1GkTelniFWWMVmriNpcWS6C4/edit?usp=sharing',
         accent: 'accent-violet',
     },
     {
