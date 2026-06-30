@@ -614,9 +614,108 @@
   color: #bfdbfe;
 }
 
+/* Contact Page Styles */
+.contact-page {
+  padding: 2rem 1rem 3rem;
+  color: #eff6ff;
+}
+
+.contact-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.92));
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 18px 30px rgba(15, 23, 42, 0.35);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-header h1 {
+  font-size: clamp(2rem, 7vw, 3rem);
+  margin: 0.25rem 0 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.contact-form span {
+  font-weight: 600;
+  color: #dbe4ff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.85rem 0.95rem;
+  border-radius: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  background: rgba(15, 23, 42, 0.62);
+  color: #f8fbff;
+  font: inherit;
+}
+
+.contact-form textarea {
+  min-height: 220px;
+  resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #94a3b8;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: rgba(125, 211, 252, 0.6);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.18);
+}
+
+.contact-submit {
+  align-self: flex-start;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #f8fbff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.contact-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.28);
+}
+
+.contact-status {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #93c5fd;
+}
+
 @media (max-width: 860px) {
   .portfolio-card {
     width: 100%;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
   }
 }
 
