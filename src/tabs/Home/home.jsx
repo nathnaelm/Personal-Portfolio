@@ -11,31 +11,14 @@ function Home() {
           <div className="home-intro">
             <p className="eyebrow">Attentive • Sharp • Learner</p>
             <h1>Nathnael Mecuria</h1>
-          </div>
-
-          <div className="home-main-row">
-            <div className="home-portrait-inline">
-              <img src={Headshot} alt="Nathnael Mecuria headshot" />
-            </div>
-
-            <div className="home-details-group">
-              <div className="education-item single-education">
-                <span className="education-degree">B.S. in Computer Science</span>
-                <span className="education-dates">2022–2026 • Blacksburg, VA</span>
-                <span className="education-degree">M.Eng in Computer Science</span>
-                <span className="education-dates">2026–2028 • Arlington, VA</span>
-              </div>
-
-              <div className="home-actions centered-actions">
-                <a className="home-link primary" href="#/portfolio">
-                  See my work
-                </a>
-                <a className="home-link secondary" href="#/contact">
-                  Get in touch
-                </a>
-              </div>
-
-              <div className="social-links centered-socials">
+            <div className="home-actions centered-actions intro-actions">
+              <a className="home-link primary" href="#/portfolio">
+                See my work
+              </a>
+              <a className="home-link secondary" href="#/contact">
+                Get in touch
+              </a>
+              <div className="social-links intro-socials">
                 <a href="https://www.linkedin.com/in/nathnael-mecuria/" target="_blank" rel="noreferrer" className="social-link">
                   <img src={LinkedIn_logo} className="social-icon" alt="LinkedIn logo" />
                 </a>
@@ -44,8 +27,14 @@ function Home() {
                 </a>
               </div>
             </div>
+          </div>
 
-            <div className="home-card right-card">
+          <div className="home-main-row">
+            <div className="home-portrait-inline">
+              <img src={Headshot} alt="Nathnael Mecuria headshot" />
+            </div>
+
+            <div className="home-card center-card">
               <h2>About me</h2>
               <p className="home-card-copy">
                 Hi there! I'm Nathnael Mecuria, a curious and driven rising Master's student in Computer Science at Virginia Tech's innovation campus in Arlington/DC. I have an interest in software engineering, particularly full-stack, app development, and AI engineering.
@@ -53,6 +42,32 @@ function Home() {
               <p className="home-card-copy">
                 I enjoy creating intuitive, user-focused applications that balance clean design with strong technical foundations. I bring a problem-solving mindset, attention to detail, and a strong desire to continuously learn and improve within collaborative team environments.
               </p>
+            </div>
+
+            <div className="home-timeline right-card timeline">
+              <div className="timeline-item left">
+                <div className="timeline-card education-item">
+                  <span className="education-degree">M.Eng in Computer Science</span>
+                  <span className="education-institution">Virginia Tech</span>
+                  <span className="education-dates">2026–2028 • Arlington, VA</span>
+                </div>
+              </div>
+
+              <div className="timeline-item left">
+                <div className="timeline-card education-item">
+                  <span className="education-degree">B.S. in Computer Science</span>
+                  <span className="education-institution">Virginia Tech</span>
+                  <span className="education-dates">2022–2026 • Blacksburg, VA</span>
+                </div>
+              </div>
+
+              <div className="timeline-item left">
+                <div className="timeline-card education-item">
+                  <span className="education-degree">International Baccalaureate</span>
+                  <span className="education-institution">American International School of Johannesburg</span>
+                  <span className="education-dates">2020–2022 • Johannesburg, South Africa</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
