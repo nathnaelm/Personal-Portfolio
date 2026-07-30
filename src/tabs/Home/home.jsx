@@ -11,21 +11,21 @@ function Home() {
           <div className="home-intro">
             <p className="eyebrow">Attentive • Sharp • Learner</p>
             <h1>Nathnael Mecuria</h1>
+            <div className="social-links intro-socials">
+              <a href="https://www.linkedin.com/in/nathnael-mecuria/" target="_blank" rel="noreferrer" className="social-link">
+                <img src={LinkedIn_logo} className="social-icon" alt="LinkedIn logo" />
+              </a>
+              <a href="https://github.com/nathnaelm" target="_blank" rel="noreferrer" className="social-link">
+                <img src={GithubLogo} className="social-icon" alt="Github logo" />
+              </a>
+            </div>
             <div className="home-actions centered-actions intro-actions">
-              <a className="home-link primary" href="#/portfolio">
+              <a className="home-link secondary" href="#/portfolio">
                 See my work
               </a>
               <a className="home-link secondary" href="#/contact">
                 Get in touch
               </a>
-              <div className="social-links intro-socials">
-                <a href="https://www.linkedin.com/in/nathnael-mecuria/" target="_blank" rel="noreferrer" className="social-link">
-                  <img src={LinkedIn_logo} className="social-icon" alt="LinkedIn logo" />
-                </a>
-                <a href="https://github.com/nathnaelm" target="_blank" rel="noreferrer" className="social-link">
-                  <img src={GithubLogo} className="social-icon" alt="Github logo" />
-                </a>
-              </div>
             </div>
           </div>
 
